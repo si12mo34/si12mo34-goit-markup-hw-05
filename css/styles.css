@@ -1,13 +1,21 @@
 * {
   box-sizing: border-box;
 }
-/*nagivation tab*/
-.header-navigation {
+
+body {
   font-family: "Roboto";
   font-style: normal;
+}
+
+/*nagivation tab*/
+.header-navigation {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: #212121;
+}
+.navigation-list-links li a {
+  text-decoration: none;
   color: #212121;
 }
