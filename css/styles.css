@@ -15,14 +15,17 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.navigation-one,
-.navigation-two,
+.navigation-one:hover,
+.navigation-two:hover,
 .navigation-three:hover,
-.navigation-one,
-.navigation-two,
+.navigation-one:focus,
+.navigation-two:focus,
 .navigation-three:focus {
   color: #2196f3;
   cursor: pointer;
+}
+.navigation-elements {
+  text-decoration: none;
 }
 /*logo*/
 .Webstudio-logo {
