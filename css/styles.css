@@ -15,7 +15,37 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.navigation-list-links li a {
+.navigation-one,
+.navigation-two,
+.navigation-three:hover,
+.navigation-one,
+.navigation-two,
+.navigation-three:focus {
+  color: #2196f3;
+  cursor: pointer;
+}
+/*logo*/
+.Webstudio-logo {
+  color: #000000;
+  font-family: Raleway;
+  font-weight: 700px;
+  letter-spacing: 0.03em;
+  line-height: 4.67px;
+  font-size: 26px;
+}
+.Webstudio-logo::before {
+  content: "Web";
+  color: #2196f3;
+  letter-spacing: 0.03em;
+  font-size: 26px;
+}
+.navigation-list li a {
   text-decoration: none;
   color: #212121;
+}
+.navigation-list > li {
+  list-style: none;
+}
+.unstyled-list {
+  text-decoration: none;
 }
