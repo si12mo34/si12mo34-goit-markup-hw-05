@@ -1,5 +1,10 @@
+
+
+
 *, {
   box-sizing: border-box;}
+
+  /*reclass the index part*/
 .body {
   font-family: "Roboto";
    margin: 0 auto;
@@ -159,30 +164,32 @@ margin-left: 0;
   display:inline-flex;
 
 }
-.closing {
+/*footer-section*/
+
+.footer-section {
   background-color: #2f303a;
-}
-.closing-p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+}
+.footer-list {
   list-style: none;
   cursor: pointer;
   text-decoration: none;
 }
-.closing-address {
+.footer-address {
   text-decoration:none
   color: #ffffff;
   text-align: -webkit-match-parent;
  
 }
-.closing-email {
+.footer-email {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   text-transform: none;
 }
-.closing-tel {
+.footer-tel {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   text-transform: none;
