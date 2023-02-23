@@ -1,7 +1,12 @@
 * {
   box-sizing: border-box;
 }
-
+:root {
+  --hover-color: #2196f3;
+  --main-color: #212121;
+  --background-title: #2f303a;
+  --logo-color: #000000;
+}
 body {
   font-family: "Roboto";
   font-style: normal;
@@ -13,15 +18,18 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color);
 }
 .navigation-one:hover,
 .navigation-two:hover,
 .navigation-three:hover,
 .navigation-one:focus,
 .navigation-two:focus,
-.navigation-three:focus {
-  color: #2196f3;
+.navigation-three:focus,
+.navigation-one:active,
+.navigation-two:active,
+.navigation-three:active {
+  color: var(--hover-color);
   cursor: pointer;
 }
 .navigation-elements {
@@ -29,7 +37,7 @@ body {
 }
 /*logo*/
 .Webstudio-logo {
-  color: #000000;
+  color: var(--logo-color);
   font-family: Raleway;
   font-weight: 700px;
   letter-spacing: 0.03em;
@@ -38,13 +46,13 @@ body {
 }
 .Webstudio-logo::before {
   content: "Web";
-  color: #2196f3;
+  color: var(--hover-color);
   letter-spacing: 0.03em;
   font-size: 26px;
 }
 .navigation-list li a {
   text-decoration: none;
-  color: #212121;
+  color: var(--main-color);
 }
 .navigation-list > li {
   list-style: none;
