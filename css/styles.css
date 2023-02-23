@@ -7,6 +7,7 @@
   --background-title: #2f303a;
   --logo-color: #000000;
   --grey-color: #757575;
+  --white-color: #ffffff;
 }
 body {
   font-family: "Roboto";
@@ -83,4 +84,31 @@ body {
 .hero-section {
   background-color: var(--background-title);
   text-align: center;
+  color: var(--white-color);
+  line-height: 2.72;
+  gap: 30px;
+}
+.hero-index-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.85;
+  background-color: #2196f3;
+  color: var(--white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/*about-us*/
+.about-us {
+  display: flex;
+}
+.unstyled-list {
+  list-style: none;
+}
+.title-about-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.title-about-us {
 }
