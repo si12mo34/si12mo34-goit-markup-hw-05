@@ -20,7 +20,10 @@ body {
 .navigation-three:hover,
 .navigation-one:focus,
 .navigation-two:focus,
-.navigation-three:focus {
+.navigation-three:focus,
+.navigation-one:active,
+.navigation-two:active,
+.navigation-three:active {
   color: #2196f3;
   cursor: pointer;
 }
