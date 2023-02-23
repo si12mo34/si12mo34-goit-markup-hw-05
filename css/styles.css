@@ -174,7 +174,24 @@ body {
   width: 1600px;
   height: 251px;
 }
+
+/*logo*/
+
+.Webstudio-logo-footer {
+  color: var(--white-color);
+  font-family: Raleway;
+  font-weight: 700px;
+  letter-spacing: 0.03em;
+  line-height: 4.67px;
+  font-size: 26px;
+  align-items: center;
+  padding: ;
+}
 .Webstudio-logo-footer::before {
-  content: Studio;
+  content: "Web";
   color: var(--hover-color);
+}
+.footer-list {
+  text-decoration: none;
+  text-transform: none;
 }
