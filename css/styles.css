@@ -174,16 +174,40 @@ body {
   letter-spacing: 0.03em;
 }
 /*footer-section*/
-.footer-section {
+.footer {
   background-color: var(--background-title);
-  padding: 60px, 0px;
+  padding: 60px 0px;
   display: flex;
   color: var(--white-color);
-  text-decoration: none;
 }
 .container-footer {
   display: flex;
-  gap: 12px;
+}
+.footer-list {
+  text-decoration: none;
+  color: var(--white-color);
+  list-style: none;
+}
+.footer-address {
+  color: #ffffff 60%;
+  font-style: normal;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+.footer-link {
+  color: #ffffff 60%;
+  text-decoration: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer-mail {
+  margin-bottom: 12px;
+  color: #ffffff 60%;
+}
+.footer-tel {
+  color: #ffffff 60%;
+  text-decoration: none;
 }
 
 /*logo*/
@@ -201,23 +225,7 @@ body {
   content: "Web";
   color: var(--hover-color);
 }
-.footer-list {
-  text-decoration: none;
-  color: var(--white-color);
-  list-style: none;
-}
-.footer-adress {
-  color: #ffffff 60%;
-  margin-top: 28px;
-  margin-bottom: 12px;
-}
-.footer-link {
-  color: var(--white-color 60%);
-  text-decoration: none;
-}
-.footer-tel {
-  margin-bottom: 12px;
-}
+.
 /*portofolio section*/
 .portofolio-options {
   background-color: var(--background-portofolio);
