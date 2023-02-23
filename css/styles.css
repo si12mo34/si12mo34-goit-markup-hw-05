@@ -6,6 +6,7 @@
   --main-color: #212121;
   --background-title: #2f303a;
   --logo-color: #000000;
+  --grey-color: #757575;
 }
 body {
   font-family: "Roboto";
@@ -19,6 +20,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  list-style: none;
 }
 .navigation-one:hover,
 .navigation-two:hover,
@@ -33,6 +35,32 @@ body {
   cursor: pointer;
 }
 .navigation-elements {
+  list-style: none;
+}
+.navigation-elements:hover,
+.navigation-elements :focus {
+  cursor: pointer;
+}
+.navigation-mail {
+  text-decoration: none;
+  list-style: none;
+  text-align: right;
+  color: var(--hover-color);
+}
+.navigation-tel {
+  text-decoration: none;
+  list-style: none;
+  color: var(--grey-color);
+}
+.navigation-list li a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--main-color);
+}
+.navigation-list > li {
+  list-style: none;
+}
+.unstyled-list {
   text-decoration: none;
 }
 /*logo*/
@@ -50,13 +78,9 @@ body {
   letter-spacing: 0.03em;
   font-size: 26px;
 }
-.navigation-list li a {
-  text-decoration: none;
-  color: var(--main-color);
-}
-.navigation-list > li {
-  list-style: none;
-}
-.unstyled-list {
-  text-decoration: none;
+
+/*hero section*/
+.hero-section {
+  background-color: var(--background-title);
+  text-align: center;
 }
