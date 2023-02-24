@@ -115,6 +115,9 @@ body {
   color: var(--white-color);
   line-height: 2.72;
   gap: 30px;
+  /*H3 B15*/
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .hero-index-button {
   font-weight: 700;
@@ -129,6 +132,18 @@ body {
 /*about-us*/
 .about-us {
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /*H3 B15*/
+  padding-top: 94px;
+  padding-bottom: 94px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.us-blocks {
+  display: inline-flex;
+  justify-content: space-evenly;
+  column-gap: 10px;
 }
 .unstyled-list {
   list-style: none;
@@ -137,6 +152,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-align: center;
 }
 .description-about-us {
   font-weight: 400;
