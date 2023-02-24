@@ -288,9 +288,11 @@ body {
 
 .portofolio-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   align-content: center;
   gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .portofolio-container-one,
 .portofolio-container-two,
@@ -304,7 +306,6 @@ body {
 .portofolio-photos {
   margin-bottom: 20px;
   border: 1px solid #eeeeee;
-  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
