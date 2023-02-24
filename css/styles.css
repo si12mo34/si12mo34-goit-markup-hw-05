@@ -296,8 +296,7 @@ body {
 }
 .portofolio-container-one,
 .portofolio-container-two,
-.portofolio-container-three,
-.portofolio-photos {
+.portofolio-container-three {
   display: inline-block;
   /*H3 B17*/
   padding: 10px;
