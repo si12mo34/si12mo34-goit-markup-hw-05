@@ -28,6 +28,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
   list-style: none;
+  /*cerinta H3 B4*/
+  margin: auto 0;
+  /*container flex*/
+  display: flex;
+  padding: 15px;
+  /*H3 B13*/
+  border: 1px solid #ececec;
 }
 .navigation-one:hover,
 .navigation-two:hover,
@@ -43,6 +50,9 @@ body {
 }
 .navigation-elements {
   list-style: none;
+  justify-content: flex-end;
+  display: inline-flex;
+  gap: 20px;
 }
 .navigation-mail:hover,
 .navigation-mail:focus,
@@ -62,6 +72,12 @@ body {
   text-decoration: none;
   list-style: none;
   color: var(--grey-color);
+}
+.navigation-list {
+  display: inline-flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-left: 10px;
 }
 .navigation-list li a {
   text-decoration: none;
