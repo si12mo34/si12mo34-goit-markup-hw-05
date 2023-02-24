@@ -28,9 +28,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
   list-style: none;
-  margin: 0;
+  /*cerinta H3 B4*/
+  margin: auto 0;
   /*container flex*/
   display: flex;
+  padding: 15px;
+  /*H3 B13*/
+  border: 1px solid #ececec;
 }
 .navigation-one:hover,
 .navigation-two:hover,
