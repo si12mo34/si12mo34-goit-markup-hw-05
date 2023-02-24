@@ -248,6 +248,7 @@ body {
   background-color: var(--background-portofolio);
 }
 .portofolio-list {
+  /*container flex*/
   display: flex;
   gap: 10px;
   flex-direction: row;
@@ -280,7 +281,7 @@ body {
   width: auto;
   text-decoration: none;
 }
-/*made portofolio container a flex one*/
+/*portofolio container flex*/
 
 .portofolio-container {
   display: flex;
@@ -290,4 +291,6 @@ body {
 .portofolio-photos {
   display: inline-block;
   gap: 30px;
+  /*H3 B17*/
+  border: 1px solid #eeeeee;
 }
