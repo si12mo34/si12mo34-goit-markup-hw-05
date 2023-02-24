@@ -44,17 +44,19 @@ body {
 .navigation-elements {
   list-style: none;
 }
-.navigation-elements:hover,
-.navigation-elements :focus {
+.navigation-mail:hover,
+.navigation-mail:focus,
+.navigation-tel:hover,
+.navigation-tel:focus {
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--hover-color);
 }
 .navigation-mail {
   text-decoration: none;
   list-style: none;
   text-align: right;
-  color: var(--hover-color);
+  color: var(--grey-color);
 }
 .navigation-tel {
   text-decoration: none;
@@ -191,10 +193,10 @@ body {
 .footer-list {
   text-decoration: none;
   list-style: none;
+  font-style: normal;
 }
 .footer-address {
   color: #ffffff;
-  font-style: normal;
   margin-top: 28px;
   margin-bottom: 12px;
   text-decoration: none;
