@@ -259,6 +259,7 @@ body {
   justify-content: center;
   gap: 15px;
   border: none;
+  align-items: center;
 }
 .portofolio-button {
   background-color: var(--our-team-color);
@@ -289,10 +290,21 @@ body {
   display: flex;
   align-items: center;
   align-content: center;
+  gap: 30px;
 }
+.portofolio-container-one,
+.portofolio-container-two,
+.portofolio-container-three,
 .portofolio-photos {
   display: inline-block;
-  gap: 30px;
   /*H3 B17*/
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.portofolio-photos {
+  margin-bottom: 20px;
   border: 1px solid #eeeeee;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
