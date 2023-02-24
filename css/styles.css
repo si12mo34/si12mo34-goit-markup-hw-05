@@ -143,7 +143,7 @@ body {
   height: 294px;
   top: 1061px;
   left: 215px;
-  /*container made flex*/
+  /*container flex*/
   display: flex;
 }
 /*our team section*/
@@ -262,7 +262,7 @@ body {
   border: none;
   transition-duration: 0.4s;
   width: auto;
-  text-decoration: underline;
+  text-decoration: none;
 }
 /*made portofolio container a flex one*/
 
