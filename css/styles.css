@@ -214,9 +214,8 @@ body {
   gap: 30px;
   width: 370px;
   height: 294px;
-  top: 1061px;
-  left: 215px;
   display: flex;
+  align-items: center;
 }
 .photo-row {
   display: flex;
