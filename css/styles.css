@@ -260,12 +260,12 @@ body {
 /*footer-section*/
 .footer {
   background-color: var(--background-title);
-  padding: 60px 0px;
   display: flex;
   color: var(--white-color);
 }
 .container-footer {
   display: flex;
+  flex-direction: column;
   text-decoration: none;
   color: var(--white-color);
 }
@@ -273,6 +273,9 @@ body {
   text-decoration: none;
   list-style: none;
   font-style: normal;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
 }
 .footer-address {
   color: #ffffff;
