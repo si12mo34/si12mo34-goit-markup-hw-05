@@ -155,10 +155,9 @@ body {
   display: flex;
   /*H3 B15*/
   flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
   margin: 0 auto;
   padding: 94px;
+  justify-content: center;
 }
 .about-us-list {
   display: flex;
@@ -198,6 +197,8 @@ body {
   /*container flex*/
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 .what-we-do-title {
@@ -208,7 +209,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
   display: flex;
-  align-self: center;
+
 }
 .image-section-row {
   gap: 30px;
