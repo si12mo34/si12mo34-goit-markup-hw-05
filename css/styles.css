@@ -40,7 +40,7 @@ body {
   display: flex;
   padding: 20px;
   /*H3 B13*/
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   align-items: center;
   justify-content: center;
 }
@@ -311,28 +311,42 @@ body {
 .
 /*portofolio section*/
 .portofolio-options {
-  background-color: var(--background-portofolio);
+  display: flex;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 .portofolio-list {
   /*container flex*/
   display: flex;
-  gap: 10px;
+  gap: 8px;
   flex-direction: row;
-  background-color: var(--our-team-color);
   color: var(--main-color);
   justify-content: center;
-  gap: 15px;
   border: none;
   align-items: center;
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  justify-content: center;
+  gap: 15px;
+  margin: 0px 0px 72px 0px;
 }
+
 .portofolio-button {
   background-color: var(--our-team-color);
   border-radius: 4px;
-  text-align: center;
   border: none;
-  padding: 6px, 22px;
+  transition-duration: 0.2s;
+  width: auto;
+  margin-right: 24px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  padding: 12px 24px;
 }
 .portofolio-button:active {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -353,22 +367,43 @@ body {
 .portofolio-container {
   display: flex;
   align-items: flex-start;
-  align-content: center;
   gap: 30px;
   margin-left: auto;
   margin-right: auto;
+  padding: 94px 0;
+}
+.portofolio-wrapper{
+  display: flex;
+  flex-direction:column;
+  align-items: left;
+  overflow: hidden;
+  border: 0.5px solid #eee;
+   border-bottom: 1px solid #eee;
+  margin-bottom: 48px;
+  margin-right: 24px;
+  width: 360px;
+}
+.portofolio-wrapper>img {
+  display: block;
+  max-width: 100%;
+  width: 370px;
+  height: 294px;
 }
 .portofolio-container-one,
 .portofolio-container-two,
 .portofolio-container-three {
-  display: inline-block;
-  /*H3 B17*/
-  padding: 10px;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
 }
 .portofolio-photos {
-  margin-bottom: 20px;
-  border: 1px solid #eeeeee;
   margin-left: auto;
   margin-right: auto;
+  list-style: none;
+}
+.portofolio-text {
+  border-top: none;
+    border-bottom: 1px solid #eeeeee;
+    color:var(--white-color)
+    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
+    text-align:left;
 }
