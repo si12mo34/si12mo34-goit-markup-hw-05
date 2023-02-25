@@ -156,14 +156,12 @@ body {
   flex-direction: row;
   list-style: none;
   gap: 30px;
-  margin-top: 94px;
 }
 .us-blocks {
   color: var(--grey-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  margin-top: 94px;
   flex-wrap: wrap;
 }
 
@@ -191,6 +189,7 @@ body {
   /*container flex*/
   display: flex;
   flex-direction: column;
+
 }
 .what-we-do-title {
   font-weight: 700;
