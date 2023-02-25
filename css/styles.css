@@ -21,6 +21,12 @@ body {
 }
 
 /*nagivation tab*/
+
+/*B7, B8 container width*/
+.header-container {
+  width: 1200px;
+  margin: 0 auto;
+}
 .header-navigation {
   font-weight: 500;
   font-size: 14px;
@@ -36,7 +42,7 @@ body {
   /*H3 B13*/
   border: 1px solid #ececec;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .navigation-one:hover,
 .navigation-two:hover,
@@ -52,9 +58,9 @@ body {
 }
 .navigation-elements {
   list-style: none;
-  justify-content: flex-end;
+  flex-grow: 3;
   display: inline-flex;
-  gap: 20px;
+  gap: 50px;
 }
 .navigation-mail:hover,
 .navigation-mail:focus,
@@ -78,8 +84,8 @@ body {
 .navigation-list {
   display: inline-flex;
   justify-content: flex-start;
-  gap: 20px;
-  margin-left: 10px;
+  gap: 50px;
+  flex-grow: 2;
 }
 .navigation-list li a {
   text-decoration: none;
@@ -100,6 +106,7 @@ body {
   letter-spacing: 0.03em;
   line-height: 4.67px;
   font-size: 26px;
+  flex-grow: 1;
 }
 .Webstudio-logo::before {
   content: "Web";
@@ -118,6 +125,8 @@ body {
   /*H3 B15*/
   padding-top: 94px;
   padding-bottom: 94px;
+  display: flex;
+  flex-direction: column;
 }
 .hero-index-button {
   font-weight: 700;
@@ -127,6 +136,9 @@ body {
   color: var(--white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  align-self: center;
 }
 
 /*about-us*/
