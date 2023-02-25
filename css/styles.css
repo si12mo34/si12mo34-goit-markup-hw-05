@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+/*  Container requirement (B8) */
+.container{
+ width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 :root {
   --hover-color: #2196f3;
   --main-color: #212121;
@@ -24,7 +34,6 @@ body {
 
 /*B7, B8 container width*/
 .header-container {
-  width: 1200px;
   margin: 0 auto;
 }
 .header-navigation {
