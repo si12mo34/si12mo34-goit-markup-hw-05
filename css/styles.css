@@ -364,9 +364,12 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   margin: 0px 0px 72px 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;;
 }
 .portofolio-class{
   gap: 8px;
+
 }
 
 .portofolio-button {
