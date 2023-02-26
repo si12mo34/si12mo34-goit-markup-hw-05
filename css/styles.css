@@ -128,7 +128,6 @@ body {
 /*hero section*/
 .hero-section {
   background-color: var(--background-title);
-  text-align: center;
   color: var(--white-color);
   line-height: 2.72;
   gap: 30px;
@@ -137,8 +136,10 @@ body {
   padding-bottom: 94px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
   width: 100%;
-  height: 100%;
+  height: 600px;
 }
 .hero-index-button {
   font-weight: 700;
@@ -160,6 +161,8 @@ body {
   flex-direction: row;
   margin: 0 auto;
   justify-content: center;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .about-us-list {
   display: flex;
@@ -199,6 +202,8 @@ body {
   /*container flex*/
   display: flex;
   flex-direction: column;
+  padding-bottom: 94px;
+  padding-top: 94px;
 
 }
 .what-we-do-title {
@@ -225,12 +230,14 @@ body {
 .team-div {
   display: flex;
   flex-direction: row;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .our-team-section {
   background-color: var(--our-team-color);
   display: flex;
-  width: 100%;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 .our-team-title {
   font-size: 36px;
@@ -260,7 +267,9 @@ body {
   color: var(--main-color);
   letter-spacing: 0.03em;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
+    margin-left: 30px;
+    margin-top: 50px;
 }
 .index-wrapper>img{
   display: block;
@@ -347,8 +356,8 @@ border-radius: 0px 0px 4px 4px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 30px;
-  padding-bottom: 0px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .portofolio-list {
   /*container flex*/
@@ -404,7 +413,8 @@ border-radius: 0px 0px 4px 4px;
   gap: 30px;
   margin-left: auto;
   margin-right: auto;
-  padding: 94px 0;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .portofolio-wrapper{
   display: flex;
