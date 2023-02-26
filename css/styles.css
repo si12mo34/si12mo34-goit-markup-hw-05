@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
-/*  Container requirement (B8) */
+a, button, br, img,ul, h1,h2,h3,h4 {
+    margin-left: 0;
+    margin-right: 0;}
+
+/*B7, B8 container width */
 .container{
  width: 1200px;
   margin: 0 auto;
@@ -32,10 +36,7 @@ body {
 
 /*nagivation tab*/
 
-/*B7, B8 container width*/
-.header-container {
-  margin: 0 auto;
-}
+
 .header-navigation {
   font-weight: 500;
   font-size: 14px;
@@ -136,6 +137,7 @@ body {
   padding-bottom: 94px;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .hero-index-button {
   font-weight: 700;
@@ -156,7 +158,6 @@ body {
   /*H3 B15*/
   flex-direction: row;
   margin: 0 auto;
-  padding: 94px;
   justify-content: center;
 }
 .about-us-list {
@@ -179,8 +180,8 @@ body {
   line-height: 1.14;
   color: var(--main-color);
   text-align: left;
-  margin-bottom: 8px;
-}
+  margin-bottom: 8px;}
+ 
 /*something is wrong with class on p
 /* *.description-about-us {
   font-weight: 400;
@@ -197,25 +198,23 @@ body {
   /*container flex*/
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
 }
 .what-we-do-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  display: flex;
-
+  align-self: center;
 }
 .image-section-row {
   gap: 30px;
   width: 370px;
   height: 294px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
 }
 .photo-row {
@@ -228,7 +227,8 @@ body {
 }
 .our-team-section {
   background-color: var(--our-team-color);
-  display: inline-block;
+  display: flex;
+  width: 100%;
 }
 .our-team-title {
   font-size: 36px;
@@ -270,8 +270,9 @@ body {
   background-color: var(--background-title);
   display: flex;
   color: var(--white-color);
+  width: 100%;
 }
-.container-footer {
+.addrress-footer {
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -311,6 +312,8 @@ body {
   line-height: 4.67px;
   font-size: 26px;
   align-items: center;
+      margin-left: 0;
+    margin-right: 0;
 }
 .Webstudio-logo-footer::before {
   content: "Web";
@@ -383,13 +386,8 @@ body {
 .portofolio-wrapper{
   display: flex;
   flex-direction:column;
-  align-items: left;
   overflow: hidden;
-  border: 0.5px solid #eee;
    border-bottom: 1px solid #eee;
-  margin-bottom: 48px;
-  margin-right: 24px;
-  width: 360px;
 }
 .portofolio-wrapper>img {
   display: block;
@@ -397,11 +395,12 @@ body {
   width: 370px;
   height: 294px;
 }
-.portofolio-container-one,
-.portofolio-container-two,
-.portofolio-container-three {
+.portofolio-one,
+.portofolio-two,
+.portofolio-three {
   display: flex;
   flex-direction: row;
+  gap: 30px;
 }
 .portofolio-photos {
   margin-left: auto;
