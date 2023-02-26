@@ -387,9 +387,11 @@ body {
   display: flex;
   flex-direction:column;
   overflow: hidden;
-   border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
+  border-top: none;
 }
-.portofolio-wrapper>img {
+.portofolio-wrapper.img {
   display: block;
   max-width: 100%;
   width: 370px;
@@ -402,14 +404,7 @@ body {
   flex-direction: row;
   gap: 30px;
 }
-.portofolio-photos {
-  margin-left: auto;
-  margin-right: auto;
-  list-style: none;
-}
 .portofolio-text {
-  border-top: none;
-    border-bottom: 1px solid #eeeeee;
     color:var(--white-color)
     box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
     text-align:left;
