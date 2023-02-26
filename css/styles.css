@@ -272,13 +272,18 @@ body {
   color: var(--white-color);
   width: 100%;
 }
+
+.Webstudio-logo-footer.addrress-footer{
+  gap:28px;
+  align-items: flex-start;
+}
 .addrress-footer {
   display: flex;
   flex-direction: column;
   text-decoration: none;
   color: var(--white-color);
 }
-.footer-list {
+.footer-link {
   text-decoration: none;
   list-style: none;
   font-style: normal;
@@ -312,12 +317,15 @@ body {
   line-height: 4.67px;
   font-size: 26px;
   align-items: center;
-      margin-left: 0;
-    margin-right: 0;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  padding-left: 32px;;
 }
 .Webstudio-logo-footer::before {
   content: "Web";
   color: var(--hover-color);
+  margin-top: 28px;
+  margin-bottom: 12px;
 }
 .
 /*portofolio section*/
@@ -390,6 +398,9 @@ body {
   border-bottom: 1px solid #eee;
   box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
   border-top: none;
+  margin-bottom: 48px;
+  margin-right: 24px;
+
 }
 .portofolio-wrapper.img {
   display: block;
@@ -401,11 +412,17 @@ body {
 .portofolio-two,
 .portofolio-three {
   display: flex;
-  flex-direction: row;
-  gap: 30px;
+  flex-wrap: nowrap;
+    padding: 10px;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
 }
 .portofolio-text {
     color:var(--white-color)
     box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
     text-align:left;
+    padding: 32px 16px;
+    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
+    border-top:none;
 }
