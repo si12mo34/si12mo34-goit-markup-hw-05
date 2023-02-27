@@ -34,6 +34,9 @@ body {
   font-style: normal;
 }
 
+.header-start{
+ border-bottom: 1px solid #ececec;
+}
 /*nagivation tab*/
 
 
@@ -50,7 +53,6 @@ body {
   display: flex;
   padding: 20px;
   /*H3 B13*/
-  border-bottom: 1px solid #ececec;
   align-items: center;
   justify-content: center;
 }
@@ -232,13 +234,9 @@ body {
   flex-direction: row;
   padding-bottom: 94px;
   padding-top: 94px;
-}
-.our-team-section {
   background-color: var(--our-team-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
+
 .our-team-title {
   font-size: 36px;
   font-weight: 700;
