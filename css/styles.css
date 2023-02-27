@@ -262,13 +262,11 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  overflow: hidden;
   color: var(--main-color);
   letter-spacing: 0.03em;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-    margin-left: 30px;
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .index-wrapper>img{
   display: block;
@@ -420,7 +418,6 @@ body {
   flex-direction:column;
   overflow: hidden;
   border-bottom: 1px solid #eee;
-  box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
   border-top: none;
   margin-bottom: 48px;
   margin-right: 24px;
