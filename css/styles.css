@@ -417,7 +417,7 @@ body {
   display: flex;
   flex-direction:column;
   overflow: hidden;
-  border-bottom: 1px solid #eee;
+  border: 1px solid #EEEEEE;
   border-top: none;
   margin-bottom: 48px;
   margin-right: 24px;
