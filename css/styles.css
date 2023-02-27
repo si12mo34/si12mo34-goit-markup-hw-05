@@ -34,9 +34,10 @@ body {
   font-style: normal;
 }
 
-.header-start{
- border-bottom: 1px solid #ececec;
+.hearder-segment{
+  border-bottom: 1px solid #ececec;
 }
+
 /*nagivation tab*/
 
 
