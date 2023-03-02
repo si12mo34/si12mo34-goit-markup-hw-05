@@ -348,6 +348,34 @@ body {
    width: 20px;
    height: 20px;
 }
+
+/*our customers*/
+.our-customers{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  padding: 94px;
+
+}
+.our-customers-title{
+  font-weight: 700;
+  size:36px;
+  text-align: center;
+  color: var(--main-color);
+}
+.our-customers-list{
+  fill:var(--social-links-color);
+  display: flex;
+  gap: 30px;
+  margin-top:20px;}
+.our-customers-list-01:hover,.our-customers-list-02:hover,.our-customers-list-03:hover,.our-customers-list-04:hover,.our-customers-list-05:hover,.our-customers-list-06:hover{
+fill: var(--hover-color);
+}
+.our-customers-list-01,.our-customers-list-02,.our-customers-list-03,.our-customers-list-04,.our-customers-list-05,.our-customers-list-06{
+border: 1px solid var(--social-links-color);
+border-radius: 4px; 
+  }
+ 
 /*footer-section*/
 .footer {
   background-color: var(--background-title);
