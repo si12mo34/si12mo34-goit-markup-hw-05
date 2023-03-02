@@ -27,6 +27,7 @@ a, button, br, img,ul, h1,h2,h3,h4 {
   --white-color: #ffffff;
   --our-team-color: #f5f4fa;
   --background-portofolio: #e5e5e5;
+  --social-links-color:#AFB1B8;
 }
 
 body {
@@ -318,7 +319,34 @@ body {
   color: var(--grey-color);
   font-weight: 400;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em;}
+
+  /*social icons*/
+
+  .icon-social-links{
+  fill:var(--social-links-color);
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;}
+   .icon-social-links:hover{
+  fill: var(--hover-color);
+   }
+
+  .icon-instagram{
+   width: 20px;
+   height: 20px;
+  }
+  .icon-twitter{
+   width: 20px;
+   height: 16.25px;}
+  .icon-facebook{
+   width: 20px;
+   height: 20px;
+  }
+.icon-linkedin{
+   width: 20px;
+   height: 20px;
 }
 /*footer-section*/
 .footer {
