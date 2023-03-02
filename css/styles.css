@@ -382,6 +382,7 @@ border-radius: 4px;
   display: flex;
   color: var(--white-color);
   width: 100%;
+ ;
 }
 
 .Webstudio-logo-footer.addrress-footer{
@@ -438,7 +439,36 @@ border-radius: 4px;
   margin-top: 28px;
   margin-bottom: 12px;
 }
-.
+/*find us*/
+.find-us{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+gap: 20px;
+fill: var(--white-color);
+margin-top: 28px;
+  margin-bottom: 12px;
+  padding-left: 600px;
+  margin-right: 100px;
+}
+
+.find-us-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+.icon-instagram-footer,.icon-twitter-footer,.icon-facebook-footer,.icon-linkedin-footer{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 2px;0px;
+  width:20px;
+  height:10px;
+  ;}
+
 /*portofolio section*/
 .portofolio-options {
   display: flex;
