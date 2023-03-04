@@ -382,19 +382,29 @@ border-radius: 4px;
   display: flex;
   color: var(--white-color);
   width: 100%;
- ;
+}
+.container-footer{
+  display: flex;
+  flex-direction: row;
+  gap:50px;
+}
+.Webstudio-logo-footer,.left-side-footer,..Webstudio-logo-footer::before{
+  display: flex;
+  gap: 30px;
 }
 
-.Webstudio-logo-footer.addrress-footer{
-  gap:28px;
-  align-items: flex-start;
+.left-side-footer{
+ display: flex;
+flex-direction: column;
+text-decoration: none;
+text-transform: none;
+color: var(--white-color); 
 }
-.addrress-footer {
+.right-side-footer{
   display: flex;
   flex-direction: column;
-  text-decoration: none;
-  color: var(--white-color);
 }
+
 .footer-link {
   text-decoration: none;
   list-style: none;
@@ -428,28 +438,29 @@ border-radius: 4px;
   letter-spacing: 0.03em;
   line-height: 4.67px;
   font-size: 26px;
-  align-items: center;
-  margin-top: 28px;
+  margin-top: 60px;
   margin-bottom: 12px;
-  padding-left: 32px;;
+  padding-left: 32px;
+  text-decoration: none;
+  z-index: 2;
+
 }
 .Webstudio-logo-footer::before {
   content: "Web";
   color: var(--hover-color);
-  margin-top: 28px;
+  margin-top: 30px;
   margin-bottom: 12px;
+  text-decoration: none;
 }
+
 /*find us*/
-.find-us{
+.left-side-footer,.right-side-footer{
+  display: flex;
+}
+.right-side-footer{
 display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
 gap: 20px;
 fill: var(--white-color);
-margin-top: 28px;
-  margin-bottom: 12px;
-  padding-left: 600px;
-  margin-right: 100px;
 }
 
 .find-us-title{
@@ -458,16 +469,29 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
+display: flex;
+padding-top: 75px;
 }
+.unstyled-list-icon{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
 .icon-instagram-footer,.icon-twitter-footer,.icon-facebook-footer,.icon-linkedin-footer{
   display: flex;
   flex-direction: row;
-  text-align: center;
-  gap: 2px;0px;
+  gap: 10px;
   width:20px;
   height:10px;
-  ;}
+  border: 1px invisible var(--main-color);
+ border-radius: 4px;
+ background: rgba(255, 255, 255, 0.1);
+  }
+  .icon-instagram-footer:hover,.icon-twitter-footer:hover,.icon-facebook-footer:hover,.icon-linkedin-footer:hover{
+fill: var(--hover-color);
+cursor: pointer;
+  }
 
 /*portofolio section*/
 .portofolio-options {
