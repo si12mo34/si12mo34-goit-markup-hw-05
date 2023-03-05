@@ -69,12 +69,15 @@ body {
 .navigation-three:active {
   color: var(--hover-color);
   cursor: pointer;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-elements {
   list-style: none;
   flex-grow: 3;
   display: inline-flex;
   gap: 50px;
+  
 }
 .header-mail:hover,
 .header-tel:hover,
@@ -86,6 +89,8 @@ body {
   text-decoration: none;
   color: var(--hover-color);
   fill: var(--hover-color);
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-mail {
   text-decoration: none;
@@ -103,6 +108,7 @@ body {
   justify-content: flex-start;
   gap: 50px;
   flex-grow: 2;
+  
 }
 .navigation-list li a {
   text-decoration: none;
@@ -155,7 +161,8 @@ list-style: none;}
   background-repeat: no-repeat;
   background-size: cover;
   background: linear-gradient(rgba(47, 48, 58, 0.4));
-
+ transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-index-button {
   font-weight: 700;
@@ -308,9 +315,12 @@ list-style: none;}
   display: flex;
   justify-content: center;
   padding: 30px;
-  gap: 20px;}
+  gap: 20px;
+}
    .icon-social-links:hover{
   fill: var(--hover-color);
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    }
 
   .icon-instagram{
@@ -350,10 +360,14 @@ list-style: none;}
   margin-top:20px;}
 .our-customers-list-01:hover,.our-customers-list-02:hover,.our-customers-list-03:hover,.our-customers-list-04:hover,.our-customers-list-05:hover,.our-customers-list-06:hover{
 fill: var(--hover-color);
+transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-customers-list-01,.our-customers-list-02,.our-customers-list-03,.our-customers-list-04,.our-customers-list-05,.our-customers-list-06{
 border: 1px solid var(--social-links-color);
 border-radius: 4px; 
+transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
  
 /*footer-section*/
@@ -471,6 +485,8 @@ padding-top: 75px;
   .icon-instagram-footer:hover,.icon-twitter-footer:hover,.icon-facebook-footer:hover,.icon-linkedin-footer:hover{
 fill: var(--hover-color);
 cursor: pointer;
+transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 /*portofolio section*/
@@ -518,6 +534,8 @@ cursor: pointer;
 .portofolio-button:active {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portofolio-button:hover,
 .portofolio-button:focus {
@@ -527,6 +545,8 @@ cursor: pointer;
   width: auto;
   text-decoration: none;
   cursor: pointer;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*portofolio container flex*/
 
@@ -552,6 +572,8 @@ cursor: pointer;
 .portofolio-wrapper:hover{
   color: var(--hover-color);
   cursor: pointer;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portofolio-wrapper.img {
   display: block;
